@@ -5,12 +5,12 @@ CREATE DATABASE tracker_db;
 USE tracker_db;
 
 CREATE TABLE department(
-    id INT NOT NULL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(30)
 );
 
 CREATE TABLE role (
-    id INT NOT NULL PRIMARY KEY,
+    id INT PRIMARY KEY,
     title VARCHAR(30),
     salary DECIMAL,
     department_id INT,
@@ -20,7 +20,7 @@ CREATE TABLE role (
 );
 
 CREATE TABLE employee (
-    id NOT NULL PRIMARY KEY,
+    id PRIMARY KEY,
     first_name VARCHAR(30),
     last_name VARCHAR(30),
     role_id INT,
