@@ -9,6 +9,8 @@ This project required mysql2 to pull information from the tracker_db database. T
 ## Usage
 The user must open the application in the terminal, then the are presented with a list of options in what the want to do with the database. They can view the department, role, and employee charts or they can add a new department, role, employee, or update and existing employee. When they choose to add a new department they are asked for the department name, then that new department is added to the department table. When they add a new role they are asked the name of the roll, the salary of that role and what department that role needs to be added to, then that role will be added to the table. When they add an employee they are asked the first and last name of the employee, what role they were hired to and their manager then the new employee is added to the employee table. Lastly if they choose to update and employee they are presented with the list of employees added to the database, once the employee is selected then the list of availible roles appears to select employees new role.
 
+link to walkthrough video: https://drive.google.com/file/d/1oIXKdnljMgjdcyj58PPyT2PZk8Bhid-_/view?usp=sharing
+
 ![alt text](<images/Screenshot 2024-03-16 at 4.50.53 PM.png>)
 
 ![alt text](<images/Screenshot 2024-03-16 at 4.54.31 PM.png>)
